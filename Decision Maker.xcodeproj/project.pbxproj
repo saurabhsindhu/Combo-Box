@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A9E1E148A1FF600BDB3A3 /* 121-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 041A9E1D148A1FF600BDB3A3 /* 121-2.png */; };
+		04CA96DA1476750000ECE144 /* bowling.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA96D91476750000ECE144 /* bowling.png */; };
+		04CA96DD1476751300ECE144 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA96DC1476751300ECE144 /* dice.png */; };
+		04CA96DF147679EA00ECE144 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA96DE147679EA00ECE144 /* coin.png */; };
+		04CA96EB1476879B00ECE144 /* whee.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA96EA1476879B00ECE144 /* whee.png */; };
+		04CA96F914769E2200ECE144 /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA96F814769E2200ECE144 /* QQ.png */; };
+		282A2BFE14751F44006C06BA /* Decision-Maker.png in Resources */ = {isa = PBXBuildFile; fileRef = 282A2BFD14751F44006C06BA /* Decision-Maker.png */; };
+		282A2C5214754BFD006C06BA /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = 282A2C5114754BFC006C06BA /* hide.png */; };
+		282A2C5414754C26006C06BA /* infor.png in Resources */ = {isa = PBXBuildFile; fileRef = 282A2C5314754C26006C06BA /* infor.png */; };
+		2892ED5D145033950042F419 /* myplist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2892ED5C145033950042F419 /* myplist.plist */; };
+		28A08E94147E4D520060F33F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A08E93147E4D520060F33F /* QuartzCore.framework */; };
+		28A4EFE8147D367F00DE09D2 /* 1st.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A4EFE7147D367F00DE09D2 /* 1st.png */; };
+		28A4EFEB147D368E00DE09D2 /* 2nd.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A4EFEA147D368E00DE09D2 /* 2nd.png */; };
+		28A4EFEF147D370C00DE09D2 /* Multi_ChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A4EFED147D370C00DE09D2 /* Multi_ChoiceViewController.m */; };
+		28A4EFF0147D370C00DE09D2 /* Multi_ChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A4EFEE147D370C00DE09D2 /* Multi_ChoiceViewController.xib */; };
+		28B2780E146A5CEF00AAAADF /* middleRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B27808146A5CEF00AAAADF /* middleRow.png */; };
+		28B2780F146A5CEF00AAAADF /* middleRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B27809146A5CEF00AAAADF /* middleRowSelected.png */; };
+		28B27810146A5CEF00AAAADF /* topAndBottomRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2780A146A5CEF00AAAADF /* topAndBottomRow.png */; };
+		28B27811146A5CEF00AAAADF /* topAndBottomRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2780B146A5CEF00AAAADF /* topAndBottomRowSelected.png */; };
+		28B27812146A5CEF00AAAADF /* topRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2780C146A5CEF00AAAADF /* topRow.png */; };
+		28B27813146A5CEF00AAAADF /* topRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B2780D146A5CEF00AAAADF /* topRowSelected.png */; };
+		28B3E2BA146932B400535F52 /* bottomRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B3E26A146932B400535F52 /* bottomRow.png */; };
+		28B3E2BB146932B400535F52 /* bottomRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B3E26B146932B400535F52 /* bottomRowSelected.png */; };
+		28B509E81477793700435363 /* maker_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B509E71477793700435363 /* maker_btn.png */; };
+		28B509F41477C18200435363 /* decide_btn-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B509F31477C18200435363 /* decide_btn-1.png */; };
+		28B53005147D1EC000E60A76 /* PINBALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B53004147D1EC000E60A76 /* PINBALL.png */; };
+		28C12171147F86120080EB0A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C12170147F86120080EB0A /* close.png */; };
+		28C12174147F86220080EB0A /* Done.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C12173147F86220080EB0A /* Done.png */; };
+		28F9A163144EF2F5002BD207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F9A162144EF2F5002BD207 /* UIKit.framework */; };
+		28F9A165144EF2F6002BD207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F9A164144EF2F6002BD207 /* Foundation.framework */; };
+		28F9A167144EF2F6002BD207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F9A166144EF2F6002BD207 /* CoreGraphics.framework */; };
+		28F9A16D144EF2F6002BD207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28F9A16B144EF2F6002BD207 /* InfoPlist.strings */; };
+		28F9A170144EF2F6002BD207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9A16F144EF2F6002BD207 /* main.m */; };
+		28F9A173144EF2F6002BD207 /* Decision_MakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9A172144EF2F6002BD207 /* Decision_MakerAppDelegate.m */; };
+		28F9A176144EF2F6002BD207 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F9A174144EF2F6002BD207 /* MainWindow.xib */; };
+		28F9A179144EF2F6002BD207 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9A178144EF2F6002BD207 /* RootViewController.m */; };
+		28F9A17C144EF2F6002BD207 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F9A17A144EF2F6002BD207 /* RootViewController.xib */; };
+		28F9A183144EF2F6002BD207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F9A162144EF2F5002BD207 /* UIKit.framework */; };
+		28F9A184144EF2F6002BD207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F9A164144EF2F6002BD207 /* Foundation.framework */; };
+		28F9A185144EF2F6002BD207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F9A166144EF2F6002BD207 /* CoreGraphics.framework */; };
+		28F9A18D144EF2F6002BD207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28F9A18B144EF2F6002BD207 /* InfoPlist.strings */; };
+		28F9A190144EF2F6002BD207 /* Decision_MakerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 28F9A18F144EF2F6002BD207 /* Decision_MakerTests.h */; };
+		28F9A192144EF2F6002BD207 /* Decision_MakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9A191144EF2F6002BD207 /* Decision_MakerTests.m */; };
+		4B44718414AF382E009B9F81 /* mulImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B44718314AF382E009B9F81 /* mulImage.png */; };
+		4B8935C614A21A8C00ECF9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8935C514A21A8C00ECF9F5 /* ViewController.m */; };
+		4B8E737C14A09CE600EF1AFA /* brown-button-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E737B14A09CE500EF1AFA /* brown-button-1.png */; };
+		4B8E739714A0D06D00EF1AFA /* check1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E739614A0D06D00EF1AFA /* check1.png */; };
+		4B8E739914A0D07200EF1AFA /* uncheck1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E739814A0D07100EF1AFA /* uncheck1.png */; };
+		4B9468E914A85545003CB1E7 /* wallBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9468E814A85545003CB1E7 /* wallBack1.png */; };
+		4B9468ED14A85FD9003CB1E7 /* slate2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9468EC14A85FD9003CB1E7 /* slate2.png */; };
+		4B9468F314A86240003CB1E7 /* cellBack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9468F214A86240003CB1E7 /* cellBack1.png */; };
+		4BA99712149F4F0B0042D52A /* ComboBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA99711149F4F0B0042D52A /* ComboBoxViewController.m */; };
+		4BA9971F149F6EB10042D52A /* ChoiceWithPriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA9971D149F6EB10042D52A /* ChoiceWithPriority.m */; };
+		4BA99720149F6EB10042D52A /* ChoiceWithPriority.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA9971E149F6EB10042D52A /* ChoiceWithPriority.xib */; };
+		4BBF77EE14B5E88B0063D74E /* wallBack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBF77ED14B5E88B0063D74E /* wallBack2.png */; };
+		4BD8E25514AAFE0800451308 /* top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD8E25414AAFE0700451308 /* top_bar.png */; };
+		4BD8E25F14AB2C9D00451308 /* slidBackImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BD8E25E14AB2C9D00451308 /* slidBackImage.png */; };
+		FEC5819D173F729B00CBA476 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC5819C173F729B00CBA476 /* Default-568h@2x.png */; };
+		FEC5819F173F746A00CBA476 /* Decision-Maker.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC5819E173F746A00CBA476 /* Decision-Maker.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F9A186144EF2F6002BD207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28F9A155144EF2F5002BD207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F9A15D144EF2F5002BD207;
+			remoteInfo = "Decision Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041A9E1D148A1FF600BDB3A3 /* 121-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "121-2.png"; sourceTree = "<group>"; };
+		04CA96D91476750000ECE144 /* bowling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowling.png; sourceTree = "<group>"; };
+		04CA96DC1476751300ECE144 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice.png; sourceTree = "<group>"; };
+		04CA96DE147679EA00ECE144 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		04CA96EA1476879B00ECE144 /* whee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whee.png; sourceTree = "<group>"; };
+		04CA96F814769E2200ECE144 /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
+		282A2BFD14751F44006C06BA /* Decision-Maker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Decision-Maker.png"; sourceTree = "<group>"; };
+		282A2C5114754BFC006C06BA /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hide.png; sourceTree = "<group>"; };
+		282A2C5314754C26006C06BA /* infor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infor.png; sourceTree = "<group>"; };
+		2892ED5C145033950042F419 /* myplist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myplist.plist; sourceTree = "<group>"; };
+		28A08E93147E4D520060F33F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28A4EFE7147D367F00DE09D2 /* 1st.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1st.png; sourceTree = "<group>"; };
+		28A4EFEA147D368E00DE09D2 /* 2nd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2nd.png; sourceTree = "<group>"; };
+		28A4EFEC147D370C00DE09D2 /* Multi_ChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multi_ChoiceViewController.h; sourceTree = "<group>"; };
+		28A4EFED147D370C00DE09D2 /* Multi_ChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multi_ChoiceViewController.m; sourceTree = "<group>"; };
+		28A4EFEE147D370C00DE09D2 /* Multi_ChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.xib; path = Multi_ChoiceViewController.xib; sourceTree = "<group>"; };
+		28B27808146A5CEF00AAAADF /* middleRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleRow.png; sourceTree = "<group>"; };
+		28B27809146A5CEF00AAAADF /* middleRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleRowSelected.png; sourceTree = "<group>"; };
+		28B2780A146A5CEF00AAAADF /* topAndBottomRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottomRow.png; sourceTree = "<group>"; };
+		28B2780B146A5CEF00AAAADF /* topAndBottomRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottomRowSelected.png; sourceTree = "<group>"; };
+		28B2780C146A5CEF00AAAADF /* topRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topRow.png; sourceTree = "<group>"; };
+		28B2780D146A5CEF00AAAADF /* topRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topRowSelected.png; sourceTree = "<group>"; };
+		28B3E26A146932B400535F52 /* bottomRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomRow.png; sourceTree = "<group>"; };
+		28B3E26B146932B400535F52 /* bottomRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomRowSelected.png; sourceTree = "<group>"; };
+		28B509E71477793700435363 /* maker_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maker_btn.png; sourceTree = "<group>"; };
+		28B509F31477C18200435363 /* decide_btn-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decide_btn-1.png"; sourceTree = "<group>"; };
+		28B53004147D1EC000E60A76 /* PINBALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PINBALL.png; sourceTree = "<group>"; };
+		28C12170147F86120080EB0A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		28C12173147F86220080EB0A /* Done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done.png; sourceTree = "<group>"; };
+		28F9A15E144EF2F5002BD207 /* Decision Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decision Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F9A162144EF2F5002BD207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28F9A164144EF2F6002BD207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28F9A166144EF2F6002BD207 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28F9A16A144EF2F6002BD207 /* Decision Maker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Decision Maker-Info.plist"; sourceTree = "<group>"; };
+		28F9A16C144EF2F6002BD207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28F9A16E144EF2F6002BD207 /* Decision Maker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Decision Maker-Prefix.pch"; sourceTree = "<group>"; };
+		28F9A16F144EF2F6002BD207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F9A171144EF2F6002BD207 /* Decision_MakerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision_MakerAppDelegate.h; sourceTree = "<group>"; };
+		28F9A172144EF2F6002BD207 /* Decision_MakerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decision_MakerAppDelegate.m; sourceTree = "<group>"; };
+		28F9A175144EF2F6002BD207 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28F9A177144EF2F6002BD207 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28F9A178144EF2F6002BD207 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F9A17B144EF2F6002BD207 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		28F9A182144EF2F6002BD207 /* Decision MakerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Decision MakerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F9A18A144EF2F6002BD207 /* Decision MakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Decision MakerTests-Info.plist"; sourceTree = "<group>"; };
+		28F9A18C144EF2F6002BD207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28F9A18E144EF2F6002BD207 /* Decision MakerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Decision MakerTests-Prefix.pch"; sourceTree = "<group>"; };
+		28F9A18F144EF2F6002BD207 /* Decision_MakerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decision_MakerTests.h; sourceTree = "<group>"; };
+		28F9A191144EF2F6002BD207 /* Decision_MakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decision_MakerTests.m; sourceTree = "<group>"; };
+		4B44718314AF382E009B9F81 /* mulImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mulImage.png; sourceTree = "<group>"; };
+		4B8935C414A21A8C00ECF9F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B8935C514A21A8C00ECF9F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B8E737B14A09CE500EF1AFA /* brown-button-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "brown-button-1.png"; path = "Decision Maker/brown-button-1.png"; sourceTree = "<group>"; };
+		4B8E739614A0D06D00EF1AFA /* check1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check1.png; sourceTree = "<group>"; };
+		4B8E739814A0D07100EF1AFA /* uncheck1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck1.png; sourceTree = "<group>"; };
+		4B9468E814A85545003CB1E7 /* wallBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallBack1.png; sourceTree = "<group>"; };
+		4B9468EC14A85FD9003CB1E7 /* slate2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slate2.png; sourceTree = "<group>"; };
+		4B9468F214A86240003CB1E7 /* cellBack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBack1.png; sourceTree = "<group>"; };
+		4BA99710149F4F0B0042D52A /* ComboBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComboBoxViewController.h; path = "Decision Maker/ComboBoxViewController.h"; sourceTree = "<group>"; };
+		4BA99711149F4F0B0042D52A /* ComboBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComboBoxViewController.m; path = "Decision Maker/ComboBoxViewController.m"; sourceTree = "<group>"; };
+		4BA9971C149F6EB10042D52A /* ChoiceWithPriority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceWithPriority.h; sourceTree = "<group>"; };
+		4BA9971D149F6EB10042D52A /* ChoiceWithPriority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceWithPriority.m; sourceTree = "<group>"; };
+		4BA9971E149F6EB10042D52A /* ChoiceWithPriority.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.xib; path = ChoiceWithPriority.xib; sourceTree = "<group>"; };
+		4BBF77ED14B5E88B0063D74E /* wallBack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallBack2.png; sourceTree = "<group>"; };
+		4BD8E25414AAFE0700451308 /* top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bar.png; sourceTree = "<group>"; };
+		4BD8E25E14AB2C9D00451308 /* slidBackImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slidBackImage.png; sourceTree = "<group>"; };
+		FEC5819C173F729B00CBA476 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEC5819E173F746A00CBA476 /* Decision-Maker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Decision-Maker.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F9A15B144EF2F5002BD207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A08E94147E4D520060F33F /* QuartzCore.framework in Frameworks */,
+				28F9A163144EF2F5002BD207 /* UIKit.framework in Frameworks */,
+				28F9A165144EF2F6002BD207 /* Foundation.framework in Frameworks */,
+				28F9A167144EF2F6002BD207 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F9A17E144EF2F6002BD207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F9A183144EF2F6002BD207 /* UIKit.framework in Frameworks */,
+				28F9A184144EF2F6002BD207 /* Foundation.framework in Frameworks */,
+				28F9A185144EF2F6002BD207 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288B91DF145FF77800781BA7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B9468FB14A87FD9003CB1E7 /* Images */,
+				28F9A171144EF2F6002BD207 /* Decision_MakerAppDelegate.h */,
+				28F9A172144EF2F6002BD207 /* Decision_MakerAppDelegate.m */,
+				28F9A174144EF2F6002BD207 /* MainWindow.xib */,
+				28F9A177144EF2F6002BD207 /* RootViewController.h */,
+				28F9A178144EF2F6002BD207 /* RootViewController.m */,
+				28F9A17A144EF2F6002BD207 /* RootViewController.xib */,
+				28A4EFEC147D370C00DE09D2 /* Multi_ChoiceViewController.h */,
+				28A4EFED147D370C00DE09D2 /* Multi_ChoiceViewController.m */,
+				28A4EFEE147D370C00DE09D2 /* Multi_ChoiceViewController.xib */,
+				FEC5819E173F746A00CBA476 /* Decision-Maker.png */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		28F9A153144EF2F5002BD207 = {
+			isa = PBXGroup;
+			children = (
+				FEC5819C173F729B00CBA476 /* Default-568h@2x.png */,
+				4B9468FA14A87FBB003CB1E7 /* ComboBox */,
+				4B9468F814A87F56003CB1E7 /* Priority */,
+				28F9A168144EF2F6002BD207 /* Decision Maker */,
+				28F9A188144EF2F6002BD207 /* Decision MakerTests */,
+				28F9A161144EF2F5002BD207 /* Frameworks */,
+				28F9A15F144EF2F5002BD207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F9A15F144EF2F5002BD207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F9A15E144EF2F5002BD207 /* Decision Maker.app */,
+				28F9A182144EF2F6002BD207 /* Decision MakerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F9A161144EF2F5002BD207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A08E93147E4D520060F33F /* QuartzCore.framework */,
+				28F9A162144EF2F5002BD207 /* UIKit.framework */,
+				28F9A164144EF2F6002BD207 /* Foundation.framework */,
+				28F9A166144EF2F6002BD207 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F9A168144EF2F6002BD207 /* Decision Maker */ = {
+			isa = PBXGroup;
+			children = (
+				288B91DF145FF77800781BA7 /* Main */,
+				28F9A169144EF2F6002BD207 /* Supporting Files */,
+			);
+			path = "Decision Maker";
+			sourceTree = "<group>";
+		};
+		28F9A169144EF2F6002BD207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2892ED5C145033950042F419 /* myplist.plist */,
+				28F9A16A144EF2F6002BD207 /* Decision Maker-Info.plist */,
+				28F9A16B144EF2F6002BD207 /* InfoPlist.strings */,
+				28F9A16E144EF2F6002BD207 /* Decision Maker-Prefix.pch */,
+				28F9A16F144EF2F6002BD207 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28F9A188144EF2F6002BD207 /* Decision MakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				28F9A18F144EF2F6002BD207 /* Decision_MakerTests.h */,
+				28F9A191144EF2F6002BD207 /* Decision_MakerTests.m */,
+				28F9A189144EF2F6002BD207 /* Supporting Files */,
+			);
+			path = "Decision MakerTests";
+			sourceTree = "<group>";
+		};
+		28F9A189144EF2F6002BD207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28F9A18A144EF2F6002BD207 /* Decision MakerTests-Info.plist */,
+				28F9A18B144EF2F6002BD207 /* InfoPlist.strings */,
+				28F9A18E144EF2F6002BD207 /* Decision MakerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B9468F814A87F56003CB1E7 /* Priority */ = {
+			isa = PBXGroup;
+			children = (
+				4BA9971C149F6EB10042D52A /* ChoiceWithPriority.h */,
+				4BA9971D149F6EB10042D52A /* ChoiceWithPriority.m */,
+				4B8935C414A21A8C00ECF9F5 /* ViewController.h */,
+				4B8935C514A21A8C00ECF9F5 /* ViewController.m */,
+				4BA9971E149F6EB10042D52A /* ChoiceWithPriority.xib */,
+				4B9468F914A87F65003CB1E7 /* Images */,
+			);
+			name = Priority;
+			sourceTree = "<group>";
+		};
+		4B9468F914A87F65003CB1E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B9468EC14A85FD9003CB1E7 /* slate2.png */,
+				4B9468F214A86240003CB1E7 /* cellBack1.png */,
+				4B9468E814A85545003CB1E7 /* wallBack1.png */,
+				4BBF77ED14B5E88B0063D74E /* wallBack2.png */,
+				4B8E739814A0D07100EF1AFA /* uncheck1.png */,
+				4B8E739614A0D06D00EF1AFA /* check1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4B9468FA14A87FBB003CB1E7 /* ComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E737B14A09CE500EF1AFA /* brown-button-1.png */,
+				4BD8E25E14AB2C9D00451308 /* slidBackImage.png */,
+				4BA99710149F4F0B0042D52A /* ComboBoxViewController.h */,
+				4BA99711149F4F0B0042D52A /* ComboBoxViewController.m */,
+			);
+			name = ComboBox;
+			sourceTree = "<group>";
+		};
+		4B9468FB14A87FD9003CB1E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B44718314AF382E009B9F81 /* mulImage.png */,
+				041A9E1D148A1FF600BDB3A3 /* 121-2.png */,
+				28C12170147F86120080EB0A /* close.png */,
+				28A4EFEA147D368E00DE09D2 /* 2nd.png */,
+				28A4EFE7147D367F00DE09D2 /* 1st.png */,
+				28C12173147F86220080EB0A /* Done.png */,
+				04CA96F814769E2200ECE144 /* QQ.png */,
+				28B53004147D1EC000E60A76 /* PINBALL.png */,
+				04CA96DE147679EA00ECE144 /* coin.png */,
+				282A2C5314754C26006C06BA /* infor.png */,
+				04CA96DC1476751300ECE144 /* dice.png */,
+				4BD8E25414AAFE0700451308 /* top_bar.png */,
+				04CA96EA1476879B00ECE144 /* whee.png */,
+				04CA96D91476750000ECE144 /* bowling.png */,
+				282A2C5114754BFC006C06BA /* hide.png */,
+				28B509F31477C18200435363 /* decide_btn-1.png */,
+				282A2BFD14751F44006C06BA /* Decision-Maker.png */,
+				28B27808146A5CEF00AAAADF /* middleRow.png */,
+				28B27809146A5CEF00AAAADF /* middleRowSelected.png */,
+				28B2780A146A5CEF00AAAADF /* topAndBottomRow.png */,
+				28B2780B146A5CEF00AAAADF /* topAndBottomRowSelected.png */,
+				28B2780C146A5CEF00AAAADF /* topRow.png */,
+				28B2780D146A5CEF00AAAADF /* topRowSelected.png */,
+				28B3E26A146932B400535F52 /* bottomRow.png */,
+				28B3E26B146932B400535F52 /* bottomRowSelected.png */,
+				28B509E71477793700435363 /* maker_btn.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F9A15D144EF2F5002BD207 /* Decision Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F9A195144EF2F6002BD207 /* Build configuration list for PBXNativeTarget "Decision Maker" */;
+			buildPhases = (
+				28F9A15A144EF2F5002BD207 /* Sources */,
+				28F9A15B144EF2F5002BD207 /* Frameworks */,
+				28F9A15C144EF2F5002BD207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decision Maker";
+			productName = "Decision Maker";
+			productReference = 28F9A15E144EF2F5002BD207 /* Decision Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28F9A181144EF2F6002BD207 /* Decision MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F9A198144EF2F6002BD207 /* Build configuration list for PBXNativeTarget "Decision MakerTests" */;
+			buildPhases = (
+				28F9A17D144EF2F6002BD207 /* Sources */,
+				28F9A17E144EF2F6002BD207 /* Frameworks */,
+				28F9A17F144EF2F6002BD207 /* Resources */,
+				28F9A180144EF2F6002BD207 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F9A187144EF2F6002BD207 /* PBXTargetDependency */,
+			);
+			name = "Decision MakerTests";
+			productName = "Decision MakerTests";
+			productReference = 28F9A182144EF2F6002BD207 /* Decision MakerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F9A155144EF2F5002BD207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 28F9A158144EF2F5002BD207 /* Build configuration list for PBXProject "Decision Maker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28F9A153144EF2F5002BD207;
+			productRefGroup = 28F9A15F144EF2F5002BD207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F9A15D144EF2F5002BD207 /* Decision Maker */,
+				28F9A181144EF2F6002BD207 /* Decision MakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F9A15C144EF2F5002BD207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F9A16D144EF2F6002BD207 /* InfoPlist.strings in Resources */,
+				28F9A176144EF2F6002BD207 /* MainWindow.xib in Resources */,
+				28F9A17C144EF2F6002BD207 /* RootViewController.xib in Resources */,
+				2892ED5D145033950042F419 /* myplist.plist in Resources */,
+				28B3E2BA146932B400535F52 /* bottomRow.png in Resources */,
+				28B3E2BB146932B400535F52 /* bottomRowSelected.png in Resources */,
+				28B2780E146A5CEF00AAAADF /* middleRow.png in Resources */,
+				28B2780F146A5CEF00AAAADF /* middleRowSelected.png in Resources */,
+				28B27810146A5CEF00AAAADF /* topAndBottomRow.png in Resources */,
+				28B27811146A5CEF00AAAADF /* topAndBottomRowSelected.png in Resources */,
+				28B27812146A5CEF00AAAADF /* topRow.png in Resources */,
+				28B27813146A5CEF00AAAADF /* topRowSelected.png in Resources */,
+				282A2BFE14751F44006C06BA /* Decision-Maker.png in Resources */,
+				282A2C5214754BFD006C06BA /* hide.png in Resources */,
+				282A2C5414754C26006C06BA /* infor.png in Resources */,
+				04CA96DA1476750000ECE144 /* bowling.png in Resources */,
+				04CA96DD1476751300ECE144 /* dice.png in Resources */,
+				04CA96DF147679EA00ECE144 /* coin.png in Resources */,
+				04CA96EB1476879B00ECE144 /* whee.png in Resources */,
+				04CA96F914769E2200ECE144 /* QQ.png in Resources */,
+				28B509E81477793700435363 /* maker_btn.png in Resources */,
+				28B509F41477C18200435363 /* decide_btn-1.png in Resources */,
+				28B53005147D1EC000E60A76 /* PINBALL.png in Resources */,
+				28A4EFE8147D367F00DE09D2 /* 1st.png in Resources */,
+				28A4EFEB147D368E00DE09D2 /* 2nd.png in Resources */,
+				28A4EFF0147D370C00DE09D2 /* Multi_ChoiceViewController.xib in Resources */,
+				28C12171147F86120080EB0A /* close.png in Resources */,
+				28C12174147F86220080EB0A /* Done.png in Resources */,
+				041A9E1E148A1FF600BDB3A3 /* 121-2.png in Resources */,
+				4BA99720149F6EB10042D52A /* ChoiceWithPriority.xib in Resources */,
+				4B8E737C14A09CE600EF1AFA /* brown-button-1.png in Resources */,
+				4B8E739714A0D06D00EF1AFA /* check1.png in Resources */,
+				4B8E739914A0D07200EF1AFA /* uncheck1.png in Resources */,
+				4B9468E914A85545003CB1E7 /* wallBack1.png in Resources */,
+				4B9468ED14A85FD9003CB1E7 /* slate2.png in Resources */,
+				4B9468F314A86240003CB1E7 /* cellBack1.png in Resources */,
+				4BD8E25514AAFE0800451308 /* top_bar.png in Resources */,
+				4BD8E25F14AB2C9D00451308 /* slidBackImage.png in Resources */,
+				4B44718414AF382E009B9F81 /* mulImage.png in Resources */,
+				4BBF77EE14B5E88B0063D74E /* wallBack2.png in Resources */,
+				FEC5819D173F729B00CBA476 /* Default-568h@2x.png in Resources */,
+				FEC5819F173F746A00CBA476 /* Decision-Maker.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F9A17F144EF2F6002BD207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F9A18D144EF2F6002BD207 /* InfoPlist.strings in Resources */,
+				28F9A190144EF2F6002BD207 /* Decision_MakerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28F9A180144EF2F6002BD207 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F9A15A144EF2F5002BD207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F9A170144EF2F6002BD207 /* main.m in Sources */,
+				28F9A173144EF2F6002BD207 /* Decision_MakerAppDelegate.m in Sources */,
+				28F9A179144EF2F6002BD207 /* RootViewController.m in Sources */,
+				28A4EFEF147D370C00DE09D2 /* Multi_ChoiceViewController.m in Sources */,
+				4BA99712149F4F0B0042D52A /* ComboBoxViewController.m in Sources */,
+				4BA9971F149F6EB10042D52A /* ChoiceWithPriority.m in Sources */,
+				4B8935C614A21A8C00ECF9F5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F9A17D144EF2F6002BD207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F9A192144EF2F6002BD207 /* Decision_MakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F9A187144EF2F6002BD207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28F9A15D144EF2F5002BD207 /* Decision Maker */;
+			targetProxy = 28F9A186144EF2F6002BD207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28F9A16B144EF2F6002BD207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F9A16C144EF2F6002BD207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28F9A174144EF2F6002BD207 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F9A175144EF2F6002BD207 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		28F9A17A144EF2F6002BD207 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F9A17B144EF2F6002BD207 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		28F9A18B144EF2F6002BD207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F9A18C144EF2F6002BD207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F9A193144EF2F6002BD207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28F9A194144EF2F6002BD207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		28F9A196144EF2F6002BD207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\\\"/Volumes/Untitled\\ 2/Software\\ Setups/dropbox-ios-sdk-1.0\\\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Decision Maker/Decision Maker-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Decision Maker/Decision Maker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28F9A197144EF2F6002BD207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\\\"/Volumes/Untitled\\ 2/Software\\ Setups/dropbox-ios-sdk-1.0\\\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Decision Maker/Decision Maker-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Decision Maker/Decision Maker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28F9A199144EF2F6002BD207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Decision Maker.app/Decision Maker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Decision MakerTests/Decision MakerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Decision MakerTests/Decision MakerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		28F9A19A144EF2F6002BD207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Decision Maker.app/Decision Maker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Decision MakerTests/Decision MakerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Decision MakerTests/Decision MakerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F9A158144EF2F5002BD207 /* Build configuration list for PBXProject "Decision Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F9A193144EF2F6002BD207 /* Debug */,
+				28F9A194144EF2F6002BD207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F9A195144EF2F6002BD207 /* Build configuration list for PBXNativeTarget "Decision Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F9A196144EF2F6002BD207 /* Debug */,
+				28F9A197144EF2F6002BD207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F9A198144EF2F6002BD207 /* Build configuration list for PBXNativeTarget "Decision MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F9A199144EF2F6002BD207 /* Debug */,
+				28F9A19A144EF2F6002BD207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28F9A155144EF2F5002BD207 /* Project object */;
+}
